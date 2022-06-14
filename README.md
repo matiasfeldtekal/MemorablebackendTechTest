@@ -19,6 +19,7 @@
 
 1. Run `npm install` command
 2. Run `npm start` command
+3. For tests: `npm test`
 
 
 ## The problem
@@ -49,7 +50,8 @@ The endpoint should return the average score for that asset type and score type.
 - You have 45 minutes to develop these endpoints.
 - Don't worry if the code does not compile, you can use some pseudocode to help you if you don't remember the syntax.
 - It is preferable to not finish all the endpoints but have a good design than finishing everything on time with bad practices.
-- There should be at least one automatic test.
+- You are free to modify all existing code, they are just examples.
+- Please add some automatic tests.
 
 
 ## Stack
