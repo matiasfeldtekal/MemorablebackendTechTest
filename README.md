@@ -21,6 +21,8 @@
 2. Run `npm start` command (The server runs in http://localhost:3333/graphql)
 3. For tests: `npm test`
 
+The project is configured to use a sqlite database.
+
 
 ## The problem
 
