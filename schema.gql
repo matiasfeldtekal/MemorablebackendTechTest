@@ -8,6 +8,11 @@ type Asset {
   name: String!
 }
 
+type Mutation {
+  """Create an asset"""
+  createAsset: Asset!
+}
+
 type Query {
   """Get all assets"""
   getAllAssets: [Asset!]!
