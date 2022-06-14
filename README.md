@@ -18,7 +18,7 @@
 ## Steps to run this project:
 
 1. Run `npm install` command
-2. Run `npm start` command
+2. Run `npm start` command (The server runs in http://localhost:3333/graphql)
 3. For tests: `npm test`
 
 
@@ -64,7 +64,7 @@ The endpoint should return the average score for that asset type and score type.
 -   [Chai](https://www.chaijs.com/) as testing assert framework
 
 
-## Endpoints examples (with sample implementation)
+## Endpoints examples (with the sample implementation)
 - Create asset
 ```graphql
 mutation {
