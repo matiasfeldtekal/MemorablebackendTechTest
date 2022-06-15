@@ -6,7 +6,7 @@
 The important thing is that we understand what you would do in a real situation.
 - It is preferable to not finish all the endpoints but have a good design than finishing everything on time with bad practices.
 - You are free to modify all existing code, they are just examples.
-- Please add some automatic tests.
+- Please add some automatic tests. (The important thing is that we know which cases you would test, nothing happens if the tests does not pass.
 
 
 ## Dependencies
