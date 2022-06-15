@@ -9,30 +9,6 @@ The important thing is that we understand what you would do in a real situation.
 - You have 45 minutes to develop these endpoints.
 
 
-## Dependencies
-- Install Node js
-  - Windows / Mac: https://nodejs.org/en/download/
-  - Linux: 
-  ```
-    sudo apt install curl
-    curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-    sudo apt-get install -y nodejs
-  
-    verify installation:
-        node --version
-        npm --version
-  ``` 
-
-
-## Steps to run this project:
-
-1. Run `npm install` command
-2. Run `npm start` command (The server runs in http://localhost:3333/graphql)
-3. For tests: `npm test`
-
-The project is configured to use a sqlite database.
-
-
 ## The problem
 
 We have two types of assets, which can be either videos or images. 
@@ -56,6 +32,29 @@ The endpoint receives an asset type (image, video), and a score type (Type1, etc
 The endpoint should return the average score for that asset type and score type.
 - An endpoint to get the data for an asset. The endpoint receives an asset id and returns the asset data, including all of the asset’s scores.
 
+
+## Dependencies
+- Install Node js
+  - Windows / Mac: https://nodejs.org/en/download/
+  - Linux: 
+  ```
+    sudo apt install curl
+    curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+    sudo apt-get install -y nodejs
+  
+    verify installation:
+        node --version
+        npm --version
+  ``` 
+
+
+## Steps to run this project:
+
+1. Run `npm install` command
+2. Run `npm start` command (The server runs in http://localhost:3333/graphql)
+3. For tests: `npm test`
+
+The project is configured to use a sqlite database.
 
 
 
