@@ -5,6 +5,7 @@ import {AppDataSource} from "../src/data-source";
 describe("Example suite", () => {
 
     beforeEach(async () => {
+        // Initialize and reset the db before each test
         await AppDataSource.initialize();
     });
 
