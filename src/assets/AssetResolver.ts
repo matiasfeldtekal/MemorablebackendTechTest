@@ -5,7 +5,7 @@ import {AppDataSource} from "../data-source";
 import {MoreThan} from "typeorm";
 
 @Service()
-@Resolver()
+@Resolver() // GraphQL controller
 export class AssetResolver {
 
     @Query((_returns) => [Asset], {description: "Get all assets"})
