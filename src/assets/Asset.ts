@@ -9,8 +9,8 @@ export class Asset {
     @Field()
     id: number
 
-    @Column()
-    @Field()
+    @Column()   // For typeorm
+    @Field()    // For type-graphql
     name: string
 
 }
