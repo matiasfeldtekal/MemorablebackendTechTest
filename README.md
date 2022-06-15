@@ -37,7 +37,7 @@ The project is configured to use a sqlite database.
 
 We have two types of assets, which can be either videos or images. 
 
-These assets have the following metadata: ID, type, filename and extension (jpg, png, mp4, etc). 
+These assets have the following metadata: ID, type, name and extension (jpg, png, mp4, etc). 
 
 Additionally, each one of these assets can have multiple scores, one for each Score Type (Type1, Type2, Type3). 
 This score can be a number between 0 and 100. 
