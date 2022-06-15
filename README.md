@@ -52,9 +52,10 @@ We propose to develop a few endpoints that interact with a database containing t
 The endpoints are as follows:
 - An endpoint to create assets with scores.
 - An endpoint to get the average score for a specific Score Type and a specific asset type. 
-- An endpoint to get the data for an asset. The endpoint receives an asset id and returns the asset data, including all of the asset’s scores.
 The endpoint receives an asset type (image, video), and a score type (Type1, etc). 
 The endpoint should return the average score for that asset type and score type.
+- An endpoint to get the data for an asset. The endpoint receives an asset id and returns the asset data, including all of the asset’s scores.
+
 
 
 
