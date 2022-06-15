@@ -1,5 +1,14 @@
 # Memorable Backend Tech Test
 
+## Requirements
+- You have 45 minutes to develop these endpoints.
+- Don't worry if the code does not compile, you can use some pseudocode to help you if you don't remember the syntax. 
+The important thing is that we understand what you would do in a real situation.
+- It is preferable to not finish all the endpoints but have a good design than finishing everything on time with bad practices.
+- You are free to modify all existing code, they are just examples.
+- Please add some automatic tests.
+- 
+
 ## Dependencies
 - Install Node js
   - Windows / Mac: https://nodejs.org/en/download/
@@ -47,14 +56,6 @@ The endpoints are as follows:
 The endpoint receives an asset type (image, video), and a score type (Type1, etc). 
 The endpoint should return the average score for that asset type and score type.
 
-
-## Requirements
-- You have 45 minutes to develop these endpoints.
-- Don't worry if the code does not compile, you can use some pseudocode to help you if you don't remember the syntax. 
-The important thing is that we understand what you would do in a real situation.
-- It is preferable to not finish all the endpoints but have a good design than finishing everything on time with bad practices.
-- You are free to modify all existing code, they are just examples.
-- Please add some automatic tests.
 
 
 ## Stack
