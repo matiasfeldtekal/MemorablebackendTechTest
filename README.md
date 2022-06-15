@@ -1,12 +1,12 @@
 # Memorable Backend Tech Test
 
 ## Requirements
-- You have 45 minutes to develop these endpoints.
 - Don't worry if the code does not compile, you can use some pseudocode to help you if you don't remember the syntax, or even comments. 
-The important thing is that we understand what you would do in a real situation.
+The important thing is that we understand what you would do in a real situation. We won't execute it and won't run the tests, so don't worry about that.
 - It is preferable to not finish all the endpoints but have a good design than finishing everything on time with bad practices.
 - You are free to modify all existing code, they are just examples.
 - Please add some automatic tests, at least for the average endpoint. (The important thing is that we know which cases you would test, nothing happens if the tests do not pass).
+- You have 45 minutes to develop these endpoints.
 
 
 ## Dependencies
