@@ -38,7 +38,7 @@ the average score for each asset type (video, image) for a specific Score Type.
 
 
 ## The task
-We propose to develop a few endpoints that interact with a mock database containing these assets. 
+We propose to develop a few endpoints that interact with a database containing these assets. 
 
 The endpoints are as follows:
 - An endpoint to create assets with scores.
